@@ -1,0 +1,27 @@
+spring:
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    password: 1234
+    user: t_user
+    url: jdbc:postgresql://localhost:5432/db_translator
+  application:
+    name: translator
+    count-thread: 10
+  datasource:
+    url: jdbc:postgresql://localhost:5432/db_translator
+    username: t_user
+    password: 1234
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      minimum-idle: 5
+      maximum-pool-size: 10
+      idle-timeout: 60000
+      max-lifetime: 1800000
+      connection-timeout: 30000
+      pool-name: MyHikariCPPool
+yandex:
+  api:
+    key: t1.9euelZqPyJaezIvMyJ2LlJOWz8qaze3rnpWampeMl8mQyJGNzZaKi8majsnl8_c3KkxK-e86JmdE_d3z93dYSUr57zomZ0T9zef1656VmpLKjInIlsbMi8nHk8-Lj46a7_zF656VmpLKjInIlsbMi8nHk8-Lj46a.dw8x6sJ1sLXkYLbXwMYppLgJ6ra6GGLxeDko3ieZE_mQe8pQ2TOgtdH_8vn7E8SC6JctBNJhjhImPWg5skpwCg
+    folder-id: b1gja17a30lnndt64g1r
+    translate-url: https://translate.api.cloud.yandex.net/translate/v2/translate
