@@ -7,6 +7,13 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public class Response {
     private String text;
 
+    public Response() {
+    }
+
+    public Response(String text) {
+        this.text = text;
+    }
+
     @JsonProperty("text")
     public String getText() {
         return text;

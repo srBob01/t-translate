@@ -22,6 +22,6 @@ spring:
       pool-name: MyHikariCPPool
 yandex:
   api:
-    key: t1.9euelZqNx5OWk5qWi5maicrNzsmNje3rnpWampeMl8mQyJGNzZaKi8majsnl8_csXj9K-e8BG2Bk_d3z92wMPUr57wEbYGT9zef1656VmovJyZiaiprKlZaZjJiPj8uP7_zF656VmovJyZiaiprKlZaZjJiPj8uP.oIk6dNQ_r_FRzXfK326KsfPrFKFSNf__H2rBHdtzRxOa1v_x2Vlkqcf1csoTK9T7JuG8rEOaHz7oKqGEtDXUCg
+    key: t1.9euelZqMkZWcjYqTlIzOj8vHkI3Kye3rnpWampeMl8mQyJGNzZaKi8majsnl8_dsATdK-e9oFwxj_N3z9ywwNEr572gXDGP8zef1656VmpbOjcjOko2Wi8yXjJvKlJ3L7_zF656VmpbOjcjOko2Wi8yXjJvKlJ3L.95w_meQew5Czh6D8Nctw6JwzG7107WQIonk_Csbc-a6su462Ghyg49hb7fye5FY-HMZ0sBrtNZIG0DuuigdJDA
     folder-id: b1gja17a30lnndt64g1r
     translate-url: https://translate.api.cloud.yandex.net/translate/v2/translate
